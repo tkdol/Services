@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md Mujammel Dolar | Digital Services</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #fdf6e3, #fffbf0, #e3f2fd, #fce4ec);
+            background-size: 400% 400%;
+            animation: gradientFlow 20s ease infinite;
+            scroll-behavior: smooth;
+        }
+
+        @keyframes gradientFlow {
+            0% {background-position: 0% 50%;}
+            50% {background-position: 100% 50%;}
+            100% {background-position: 0% 50%;}
+        }
+
+        header {
+            background: linear-gradient(to right, #003366, #001a33); /* navy blue */
+            color: #fff;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        
+        footer {
+            background-color: #000000; /* black */
+            color: #fff;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: orange;
+            animation: slideIn 2s ease-in-out;
+        }
+        header p {
+            animation: fadeIn 2s ease-in-out 1s;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #ffd700;
+        }
+        section {
+            padding: 60px 20px;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .services-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .service {
+            background: #fff;
+            padding: 20px;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .service:hover {
+            transform: scale(1.05);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        }
+        .review {
+            background: #fff;
+            margin: 15px auto;
+            padding: 20px;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            transition: transform 0.4s ease;
+        }
+        .review:hover {
+            transform: translateY(-5px);
+            background-color: #fffaf0;
+        }
+        .review::after {
+            content: '★★★★★';
+            display: block;
+            color: #ffd700;
+            margin-top: 10px;
+        }
+        ul {
+            max-width: 800px;
+            margin: auto;
+            padding: 0;
+            list-style-type: none;
+        }
+        ul li {
+            background: #fff;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: background 0.3s;
+        }
+        ul li:hover {
+            background: #e7f1ff;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+        .social-icons a:hover {
+            color: #ffd700;
+        }
+        footer h2 {
+            color: orange;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes slideIn {
+            from { transform: translateX(-100%); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Md Mujammel Dolar</h1>
+        <p>Expert in Digital Services</p>
+        <nav>
+            <a href="#services">Services</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service">Facebook Page Create and Setup</div>
+            <div class="service">YouTube Channel Create and Full Optimization</div>
+            <div class="service">Logo and Brand Design</div>
+            <div class="service">MS Office Tasks</div>
+            <div class="service">Lead Generation</div>
+            <div class="service">Content Writing</div>
+            <div class="service">Website Code Creation</div>
+            <div class="service">Editing Services</div>
+            <div class="service">Social Media Management</div>
+        </div>
+        <p style="text-align:center; margin-top: 20px;">We ensure high-quality service with client satisfaction being our top priority. All services are handled professionally and tailored to your business needs.</p>
+    </section>
+
+    <section id="reviews">
+        <h2>Client Reviews</h2>
+        <div class="review">"Md Mujammel Dolar helped me set up a professional Facebook page that brought more visibility to my brand. Highly recommended!" - Maria H.</div>
+        <div class="review">"Thanks to Dolar's YouTube optimization, my channel views have doubled in a month. Amazing work!" - James B.</div>
+        <div class="review">"I loved the logo and brand style created for my startup. Very creative and professional." - Nushrat R.</div>
+        <div class="review">"He delivered a perfect Excel dashboard in no time. Super efficient and polite." - Arif I.</div>
+        <div class="review">"From lead gen to editing, everything was top-notch. Dolar is my go-to digital expert now." - Tanya K.</div>
+    </section>
+
+    <section id="benefits">
+        <h2>Benefits of Choosing Us</h2>
+        <ul>
+            <li>Expert support tailored to your needs</li>
+            <li>Quick turnaround time</li>
+            <li>Affordable pricing</li>
+            <li>Complete satisfaction guaranteed</li>
+            <li>Reliable and secure service</li>
+        </ul>
+    </section>
+
+    <footer id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: ddolar394@gmail.com</p>
+        <p>Phone: 01938519101</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/md.doller.984" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/tkdol460/" target="_blank">instagram</a>
+            <a href="https://x.com/MDDolar290438" target="_blank">x</a>
+        </div>
+        <p>&copy; 2025 Md Mujammel Dolar. All rights reserved.</p>
+    </footer>
+</body>
+</html>
